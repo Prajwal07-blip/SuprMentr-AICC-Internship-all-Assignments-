@@ -3,7 +3,7 @@ import os
 import re
 
 # -----------------------------
-# Password Strength Checker
+# Password Strength Checking 
 # -----------------------------
 def is_strong_password(password):
     if (len(password) < 8 or
